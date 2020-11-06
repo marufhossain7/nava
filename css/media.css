@@ -1,0 +1,197 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*headerstart*/
+.logo {
+    width: 55%;
+}
+nav ul li {
+    padding: 0 0 10px 0;
+}
+nav ul li a {
+	padding: 0 0 !important;
+    text-align: right;
+}
+nav ul li:last-child a{
+	padding: 7px !important;
+    border-radius: 5px;
+    width: 33%;
+    float: right;
+}
+.htxt {
+    font-weight: 700;
+    font-size: 23px;
+    padding-top: 50px;
+    word-spacing: 4px;
+}
+.ptxt{
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+.search {
+    padding-bottom: 90px;
+}
+
+/*headerend*/
+/*counter start*/
+.counter{
+	font-size: 10px;
+}
+.counter h2{
+	font-size: 9px;
+}
+/*counter end*/
+/*explore start*/
+.h1{
+	font-size: 28px;
+}
+/*explore start*/
+/*boat start*/
+.lgtxt{
+	font-size: 23px;
+}
+.lgptxt{
+	font-size: 14px;
+
+}
+.sbtn{
+	padding: 8px;
+    margin: 25px 0 0 0;
+}
+/*boat end*/
+/*footer start*/
+#footer h5 {
+    font-size: 13px;
+}
+#footer div div div:last-child h5{
+	border-left: 0;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#footer ul.quick-links li a {
+    font-size: 9px;
+}
+#footer ul.social li a i {
+    margin-right: 0px;
+    font-size: 11px;
+}
+#footer ul.social li {
+    padding: 20px 0;
+}
+
+.fcard{
+	font-size: 10px;
+}
+.binput{
+	    font-size: 8px;
+}
+.bsubs{
+	font-size: 12.4px;
+}
+#footer ul.social li {
+    padding: 10px 4px;
+}
+#footer ul.social li a i {
+    font-size: 16px;
+}
+/*footer end*/
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*headerstart*/
+nav ul li a {
+	padding: 0 0 !important;
+    text-align: right;
+}
+nav ul li:last-child a{
+	padding: 7px !important;
+    border-radius: 5px;
+    width: 20%;
+    float: right;
+}
+.htxt {
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 80px;
+    word-spacing: 8px;
+}
+
+/*headerend*/
+/*counter start*/
+.counter h2{
+	font-size: 24px;
+}
+/*counter end*/
+/*footer start*/
+#footer h5 {
+    font-size: 13px;
+}
+#footer ul.quick-links li a {
+    font-size: 12px;
+}
+#footer ul.social li a i {
+    margin-right: 0px;
+    font-size: 11px;
+}
+#footer ul.social li {
+    padding: 20px 0;
+}
+
+.fcard{
+	font-size: 10px;
+}
+.binput{
+	    font-size: 8px;
+}
+.bsubs{
+	font-size: 12.4px;
+}
+/*footer end*/
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*headerstart*/
+nav ul li a {
+	padding: 0 0 !important;
+    text-align: right;
+}
+nav ul li:last-child a{
+	padding: 7px !important;
+    border-radius: 5px;
+    width: 14%;
+    float: right;
+}
+.htxt {
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 80px;
+    word-spacing: 8px;
+}
+
+/*headerend*/
+/*counter start*/
+.counter h2{
+	font-size: 24px;
+}
+/*counter end*/
+/*footer */
+.fcard{
+	margin-top: 42px;
+}
+#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+#footer ul.quick-links li a {
+    font-size: 12px;
+}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... } 
